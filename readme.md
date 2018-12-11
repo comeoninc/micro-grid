@@ -41,14 +41,14 @@ Once you have the micro grid module installed, you can include it in your CSS/LE
 
 #### CSS Import:
   ```css
-  import url("https://cdn.rawgit.com/getbase/micro-grid/master/css/index.css");
+  @import url("https://unpkg.com/@getbase/micro-grid/index.css");
   ```
 
 #### SCSS Import:
 
   ```scss
   /* Import Base Micro Grid */
-  @import "node_modules/@getbase/micro-grid/scss/index";
+  @import "~@getbase/micro-grid/scss/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -56,9 +56,9 @@ Once you have the micro grid module installed, you can include it in your CSS/LE
 
 #### LESS Import:
 
-  ```css
+  ```less
   /* Import Base Micro Grid */
-  @import "node_modules/@getbase/micro-grid/scss/index";
+  @import "~@getbase/micro-grid/less/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -144,7 +144,7 @@ Base Micro Grid includes styles for flex grids with rows and basic columns for a
 
 ## Demo
 
-[View page example](https://rawgit.com/getbase/micro-grid/master/index.html) with the micro grid and containers stylesheet applied.
+[View page example](https://unpkg.com/@getbase/micro-grid/index.html) with the micro grid and containers stylesheet applied.
 
 * * *
 
